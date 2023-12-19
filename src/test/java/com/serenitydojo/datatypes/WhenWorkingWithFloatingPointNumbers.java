@@ -15,7 +15,7 @@ public class WhenWorkingWithFloatingPointNumbers {
     public void convertToFarenheit() {
         double celcius = 27.0d;
         double farenheit = 0.0d;
-
+        farenheit = (celcius * 1.8) + 32;
         // TODO: Use a floating point calculation to calculate the farenheit equivalent of the celcius value.
 
         assertThat(farenheit, equalTo(80.6));
@@ -29,7 +29,7 @@ public class WhenWorkingWithFloatingPointNumbers {
     public void convertMetersToFeet() {
         int weightInKilograms = 50;
         double weightInPounds = 0;
-
+        weightInPounds = weightInKilograms * 2.20462d;
         // TODO: Use a floating point calculation to calculate the correct weight in pounds
 
         assertThat(weightInPounds, equalTo(110.231));
